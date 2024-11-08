@@ -1,0 +1,164 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    backdrop-filter: blur(10px);
+}
+
+.logo h1 a {
+    font-family: 'Italiana', serif;
+    color: #ca9222;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #668e55;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #32583e;
+    transform: scale(1.1);
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+
+.contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.contact-section {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #7b3914;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #668e55;
+    margin-bottom: 20px;
+}
+
+
+.contact-form label {
+    display: block;
+    font-size: 1.1rem;
+    color: #32583e;
+    margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #7b3914;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #32583e;
+    font-size: 1rem;
+    font-family: 'Crimson Pro', serif;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #668e55;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #32583e;
+}
+
+
+.footer {
+    background-color: #32583e;
+    color: #ffffff;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer .socials li {
+    margin: 0 10px;
+}
+
+.footer .socials a {
+    color: #ca9222;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer .socials a:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+
